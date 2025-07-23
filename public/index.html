@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Lisbon Playgrounds</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet/dist/leaflet.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="map"></div>
+
+        <button id="toggle-btn">☰ Info</button>
+
+        <div id="sidebar">
+            <h2>Lisbon Playgrounds</h2>
+            <p>
+                This map displays playground locations in Lisbon based on open
+                municipal data.
+            </p>
+            <p>Future filters and demographic overlays will appear here.</p>
+        </div>
+
+        <div id="legend" class="leaflet-control">
+            <h4>Gestão</h4>
+            <div>
+                <span class="legend-color" style="background: red"></span>
+                SRU
+            </div>
+            <div>
+                <span class="legend-color" style="background: blue"></span>
+                CML
+            </div>
+            <div>
+                <span class="legend-color" style="background: green"></span>
+                JF
+            </div>
+            <div>
+                <span class="legend-color" style="background: gray"></span>
+                Outro
+            </div>
+        </div>
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
