@@ -15,7 +15,7 @@ L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
 map.createPane("topLayer");
 map.getPane("topLayer").style.zIndex = 650; // higher than overlayPane (400)
 
-fetch("../data/bgri_analysis.geojson")
+fetch("data/bgri_analysis.geojson")
   .then((res) => res.json())
   .then((data) => {
     L.geoJSON(data, {
@@ -45,7 +45,6 @@ fetch("../data/bgri_analysis.geojson")
         const p = feature.properties.playground_count;
         const ratio = feature.properties.children_per_playground;
 
-        console.log(c);
         const popup = `
           <strong>Children 0–14:</strong> ${c}<br>
           <strong>Playgrounds:</strong> ${p}<br>
@@ -56,7 +55,7 @@ fetch("../data/bgri_analysis.geojson")
     }).addTo(map);
   });
 
-fetch("../data/playgrounds.geojson")
+fetch("data/playgrounds.geojson")
   .then((res) => res.json())
   .then((data) => {
     L.geoJSON(data, {
@@ -108,25 +107,3 @@ fetch("../data/playgrounds.geojson")
       },
     }).addTo(map);
   });
-
-// fetch("../data/src/BGRI2021_1106.geojson")
-//   .then((res) => res.json())
-//   .then((data) => {
-//     L.geoJSON(data, {
-//       style: function () {
-//         return {
-//           color: "#333",
-//           weight: 2,
-//           fillColor: "#cccccc",
-//           fillOpacity: 0.3,
-//         };
-//       },
-//       onEachFeature: function (feature, layer) {
-//         const code =
-//           feature.properties.BGRI2021 ||
-//           feature.properties.SUBSECCAO ||
-//           "Unknown";
-//         layer.bindPopup(`<strong>BGRI:</strong> ${code}`);
-//       },
-//     }).addTo(map);
-//   });
