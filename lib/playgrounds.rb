@@ -17,7 +17,7 @@ class Playgrounds
   def closest_distance_from(geometry)
     polygon_geom = decode_geometry(geometry)
     centroid = polygon_geom.centroid
-    playgrounds.map { |p| distance(p, centroid) }.min
+    playgrounds.map { |p| distance(p, centroid) }.min.round(2)
   end
 
   private

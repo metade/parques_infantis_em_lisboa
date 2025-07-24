@@ -55,13 +55,11 @@ Promise.all([
       const c = feature.properties.children_under_14;
       const p = feature.properties.playground_count;
       const d = feature.properties.nearest_playground_distance;
-      const ratio = feature.properties.children_per_playground;
 
       const popup = `
-        <strong>Children 0–14:</strong> ${c}<br>
-        <strong>Playgrounds:</strong> ${p}<br>
-        <strong>Distance from Closest Playground:</strong> ${d}<br>
-        <strong>Children per Playground:</strong> ${ratio === null ? "∞" : ratio.toFixed(1)}
+        <strong>Crianças de 0–14 anos:</strong> ${c}<br>
+        <strong>Parques Infantis:</strong> ${p}<br>
+        <strong>Distancia de Parque Infantil:</strong> ${d}m<br>
       `;
       layer.bindPopup(popup);
     },
