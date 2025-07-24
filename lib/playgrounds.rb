@@ -17,7 +17,7 @@ class Playgrounds
 
   def playgrounds
     @playgrounds ||= begin
-      playgrounds = JSON.parse(File.read("data/playgrounds.geojson"))
+      playgrounds = JSON.parse(File.read("data/src/parques_infantis.geojson"))
       playground_points = playgrounds["features"].map do |f|
         RGeo::GeoJSON.decode(f["geometry"].to_json, json_parser: :json, geo_factory: @factory)
       end

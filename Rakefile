@@ -1,27 +1,30 @@
 require "json"
+require_relative "lib/lisbon"
 require_relative "lib/playgrounds"
+require_relative "lib/my_geojson_feature"
 
 task :build_data do
+  lisbon = Lisbon.new
   playgrounds = Playgrounds.new
   data = JSON.parse(File.read("data/src/BGRI2021_1106.geojson"))
 
   features = data["features"]
-    .select { |feature| feature["properties"]["DTMN21"] == "1106" }
-    .map do |feature|
-      children_under_14 = feature.dig("properties", "N_INDIVIDUOS_0_14").to_i
-      playground_count = playgrounds.count_in_area(feature["geometry"])
-      children_per_playground = playground_count.zero? ? nil : children_under_14 / playground_count.to_f
+    .select { |feature| lisbon.contains?(feature) }
+    .map do |raw_feature|
+      feature = MyGeoJsonFeature.new(raw_feature)
+      playground_count = playgrounds.count_in_area(feature.geometry)
+      children_per_playground = playground_count.zero? ? nil : feature.children_under_14 / playground_count.to_f
 
       {
         type: "Feature",
         properties: {
-          bgri_2021_id: feature.dig("properties", "BGRI2021"),
-          children_under_14: children_under_14,
+          bgri_2021_id: feature.bgri_2021_id,
+          children_under_14: feature.children_under_14,
           playground_count: playground_count,
           children_per_playground: children_per_playground,
           adequacy: "none"
         },
-        geometry: feature["geometry"]
+        geometry: feature.geometry
       }
     end
 
