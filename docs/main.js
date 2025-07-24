@@ -19,36 +19,48 @@ Promise.all([
   fetch("data/bgri_analysis.geojson").then((r) => r.json()),
   fetch("data/playgrounds.geojson").then((r) => r.json()),
 ]).then(([censusData, playgroundData]) => {
+  const maxChildren = Math.max(
+    ...censusData.features.map((f) => f.properties.children_under_14 || 0),
+  );
   L.geoJSON(censusData, {
     style: function (feature) {
-      const ratio = feature.properties.children_per_playground;
-      let fill = "gray";
+      console.log(feature.properties);
+      const dist = feature.properties.nearest_playground_distance;
+      const kids = feature.properties.children_under_14 || 0;
 
-      if (ratio === null) {
-        fill = "gray"; // No playgrounds
-      } else if (ratio <= 50) {
-        fill = "green";
-      } else if (ratio <= 100) {
-        fill = "yellow";
+      // Colour by distance
+      let fill;
+      if (dist == null) {
+        fill = "black"; // debug
+      } else if (dist <= 500) {
+        fill = "#2e7d32"; // green
+      } else if (dist <= 800) {
+        fill = "#fdd835"; // yellow
+      } else if (dist <= 1000) {
+        fill = "#e53935"; // red
       } else {
-        fill = "red";
+        fill = "#6a1b9a"; // purple
       }
+      // Opacity based on children
+      const opacity = Math.min(kids / maxChildren, 1) * 0.9 + 0.1; // minimum opacity 0.1
 
       return {
-        fillColor: fill,
-        weight: 1,
         color: "#444",
-        fillOpacity: 0.4,
+        weight: 1,
+        fillColor: fill,
+        fillOpacity: opacity,
       };
     },
     onEachFeature: function (feature, layer) {
       const c = feature.properties.children_under_14;
       const p = feature.properties.playground_count;
+      const d = feature.properties.nearest_playground_distance;
       const ratio = feature.properties.children_per_playground;
 
       const popup = `
         <strong>Children 0–14:</strong> ${c}<br>
         <strong>Playgrounds:</strong> ${p}<br>
+        <strong>Distance from Closest Playground:</strong> ${d}<br>
         <strong>Children per Playground:</strong> ${ratio === null ? "∞" : ratio.toFixed(1)}
       `;
       layer.bindPopup(popup);

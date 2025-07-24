@@ -13,7 +13,10 @@ task :build_data do
     .map do |raw_feature|
       feature = MyGeoJsonFeature.new(raw_feature)
       playground_count = playgrounds.count_in_area(feature.geometry)
-      children_per_playground = playground_count.zero? ? nil : feature.children_under_14 / playground_count.to_f
+      nearest_playground_distance = playgrounds.closest_distance_from(feature.geometry)
+      children_per_playground = playground_count.zero? ?
+        nil :
+        feature.children_under_14 / playground_count.to_f
 
       {
         type: "Feature",
@@ -22,6 +25,7 @@ task :build_data do
           children_under_14: feature.children_under_14,
           playground_count: playground_count,
           children_per_playground: children_per_playground,
+          nearest_playground_distance: nearest_playground_distance,
           adequacy: "none"
         },
         geometry: feature.geometry
@@ -33,5 +37,5 @@ task :build_data do
     features: features
   }
 
-  File.write("data/bgri_analysis.geojson", JSON.pretty_generate(data))
+  File.write("docs/data/bgri_analysis.geojson", JSON.pretty_generate(data))
 end
