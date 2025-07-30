@@ -16,7 +16,7 @@ map.createPane("topLayer");
 map.getPane("topLayer").style.zIndex = 650; // higher than overlayPane (400)
 
 Promise.all([
-  fetch("data/bgri_analysis.geojson").then((r) => r.json()),
+  fetch("data/h3_bgri_analysis.geojson").then((r) => r.json()),
   fetch("data/playgrounds.geojson").then((r) => r.json()),
 ]).then(([censusData, playgroundData]) => {
   const maxChildren = Math.max(
@@ -24,7 +24,6 @@ Promise.all([
   );
   L.geoJSON(censusData, {
     style: function (feature) {
-      console.log(feature.properties);
       const dist = feature.properties.nearest_playground_distance;
       const kids = feature.properties.children_under_14 || 0;
 
