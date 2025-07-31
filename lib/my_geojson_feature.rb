@@ -35,8 +35,10 @@ class MyGeoJsonFeature
 
     total_area = geojson_geometry.area
 
+    # geojson uses long, lat instead of lat, lng!
+    lat_lng_coordinates = coordinates.map { |c| c.map(&:reverse) }
     # First try polyfill
-    h3_indices = H3.polyfill(coordinates, resolution).to_set
+    h3_indices = H3.polyfill(lat_lng_coordinates, resolution).to_set
 
     # Fallback: sample along boundary if polyfill is empty or sparse
     if h3_indices.empty?
@@ -48,8 +50,9 @@ class MyGeoJsonFeature
 
           (0..n).each do |i|
             frac = i.to_f / n
-            lat = a.coordinates.first + frac * (b.coordinates.first - a.coordinates.first)
-            lng = a.coordinates.last + frac * (b.coordinates.last - a.coordinates.last)
+            # remember lat/lng is reversed
+            lat = a.coordinates.last + frac * (b.coordinates.last - a.coordinates.last)
+            lng = a.coordinates.first + frac * (b.coordinates.first - a.coordinates.first)
             h3_indices << H3.from_geo_coordinates([lat, lng], resolution)
           end
         end
@@ -58,10 +61,11 @@ class MyGeoJsonFeature
 
     h3_indices.map do |h3_index|
       hex_coords = H3.to_boundary(h3_index)
+
       hex_ring = factory.polygon(
         factory.linear_ring(
-          hex_coords.map { |lat, lng| factory.point(lat, lng) } +
-          [factory.point(hex_coords.first[0], hex_coords.first[1])] # close ring
+          hex_coords.map { |lat, lng| factory.point(lng, lat) } +
+          [factory.point(hex_coords.first[1], hex_coords.first[0])] # close ring
         )
       )
 
