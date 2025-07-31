@@ -46,8 +46,6 @@ task :build_h3_data do
   playgrounds = Playgrounds.new
   data = JSON.parse(File.read("data/src/BGRI2021_1106.geojson"))
 
-  factory = RGeo::Geographic.simple_mercator_factory
-
   h3_data = {}
   empty_features = []
   data["features"]

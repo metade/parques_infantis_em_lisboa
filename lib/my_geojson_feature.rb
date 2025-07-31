@@ -3,9 +3,11 @@ require "active_support/core_ext/enumerable"
 
 class MyGeoJsonFeature
   H3_RESOLUTION = 9
+  attr_reader :factory
 
-  def initialize(data)
+  def initialize(data, factory: nil)
     @data = data
+    @factory ||= RGeo::Geographic.spherical_factory(srid: 4326)
   end
 
   def bgri_2021_id
@@ -27,7 +29,7 @@ class MyGeoJsonFeature
     geometry["coordinates"].first
   end
 
-  def hexes(factory: RGeo::Geographic.simple_mercator_factory, resolution: H3_RESOLUTION)
+  def hexes(resolution: H3_RESOLUTION)
     geojson_geometry = RGeo::GeoJSON.decode(geometry.to_json, json_parser: :json)
     return [] if geojson_geometry.nil? || geojson_geometry.area.zero?
 
