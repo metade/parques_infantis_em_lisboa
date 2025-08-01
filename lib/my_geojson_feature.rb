@@ -22,6 +22,10 @@ class MyGeoJsonFeature
     @data["geometry"]
   end
 
+  def freguesia_code
+    @data.dig("properties", "DTMNFR21")
+  end
+
   def coordinates
     raise unless geometry["type"] == "MultiPolygon"
     raise @data.inspect if geometry["coordinates"].many?
@@ -76,6 +80,7 @@ class MyGeoJsonFeature
 
         {
           id: h3_index,
+          freguesia_code: freguesia_code,
           geometry: hex_ring,
           coordinates: hex_ring.coordinates,
           weight: weight

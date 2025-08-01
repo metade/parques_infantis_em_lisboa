@@ -81,6 +81,7 @@ task :build_h3_data do
         h3_index = hex[:id]
         h3_data[h3_index] ||= {
           bgri_2021_id: {},
+          freguesias: Set.new,
           children_under_14: 0,
           playground_count: playgrounds.count_in_area(hex[:geometry]),
           nearest_playground_distance: playgrounds.closest_distance_from(hex[:geometry]),
@@ -92,6 +93,7 @@ task :build_h3_data do
         h3_data[h3_index][:children_per_playground] = h3_data[h3_index][:playground_count].zero? ?
           nil :
           h3_data[h3_index][:children_under_14] / h3_data[h3_index][:playground_count]
+        h3_data[h3_index][:freguesias] << lisbon.freguesia_name(hex[:freguesia_code])
       end
     end
 
@@ -103,6 +105,7 @@ task :build_h3_data do
         type: "Feature",
         properties: {
           bgri_2021_id: data[:bgri_2021_id],
+          freguesias: data[:freguesias].sort.to_a,
           children_under_14: data[:children_under_14]&.round(2),
           playground_count: data[:playground_count],
           children_per_playground: data[:children_per_playground]&.round(2),
