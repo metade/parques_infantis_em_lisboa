@@ -20,6 +20,7 @@ GEM
     bigdecimal (3.2.2)
     concurrent-ruby (1.3.5)
     connection_pool (2.5.3)
+    csv (3.3.5)
     drb (2.2.3)
     ffi (1.17.2-x86_64-darwin)
     h3 (3.7.4)
@@ -93,6 +94,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  csv
   h3
   haversine
   rake

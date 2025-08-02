@@ -70,7 +70,7 @@ Promise.all([
   L.geoJSON(playgroundData, {
     pane: "topLayer",
     pointToLayer: function (feature, latlng) {
-      const gestor = feature.properties.GESTAO;
+      const gestor = feature.properties.gestao;
       let color;
 
       switch (gestor) {
@@ -100,10 +100,10 @@ Promise.all([
     onEachFeature: function (feature, layer) {
       const props = feature.properties;
 
-      const title = props.DESIGNACAO || "Parque Infantil";
-      const address = props.MORADA || "Morada desconhecida";
-      const gestor = props.GESTAO || "Não especificado";
-      const servico = props.SERVICO_CML || "N/A";
+      const title = props.designacao || "Parque Infantil";
+      const address = props.morada || "Morada desconhecida";
+      const gestor = props.gestao || "Não especificado";
+      const servico = props.serico_cml || "N/A";
 
       const popupContent = `
         <strong>${title}</strong><br>

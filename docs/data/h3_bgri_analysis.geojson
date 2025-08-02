@@ -245,7 +245,7 @@
         "children_under_14": 168.78,
         "playground_count": 0,
         "children_per_playground": null,
-        "nearest_playground_distance": 714.91
+        "nearest_playground_distance": 591.63
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -762,7 +762,7 @@
         "children_under_14": 92.73,
         "playground_count": 0,
         "children_per_playground": null,
-        "nearest_playground_distance": 468.08
+        "nearest_playground_distance": 386.0
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -823,7 +823,7 @@
         "children_under_14": 130.5,
         "playground_count": 0,
         "children_per_playground": null,
-        "nearest_playground_distance": 493.48
+        "nearest_playground_distance": 283.72
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6835,7 +6835,7 @@
         "children_under_14": 78.33,
         "playground_count": 0,
         "children_per_playground": null,
-        "nearest_playground_distance": 444.24
+        "nearest_playground_distance": 298.18
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16323,7 +16323,7 @@
         "children_under_14": 162.99,
         "playground_count": 0,
         "children_per_playground": null,
-        "nearest_playground_distance": 658.78
+        "nearest_playground_distance": 272.68
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16395,7 +16395,7 @@
         "children_under_14": 105.72,
         "playground_count": 0,
         "children_per_playground": null,
-        "nearest_playground_distance": 832.55
+        "nearest_playground_distance": 448.78
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -19446,9 +19446,9 @@
           "Santo António"
         ],
         "children_under_14": 142.28,
-        "playground_count": 0,
-        "children_per_playground": null,
-        "nearest_playground_distance": 505.79
+        "playground_count": 1,
+        "children_per_playground": 142.28,
+        "nearest_playground_distance": 204.08
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25463,7 +25463,7 @@
         "children_under_14": 33.86,
         "playground_count": 0,
         "children_per_playground": null,
-        "nearest_playground_distance": 830.54
+        "nearest_playground_distance": 567.24
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41374,9 +41374,9 @@
           "Avenidas Novas"
         ],
         "children_under_14": 68.66,
-        "playground_count": 0,
-        "children_per_playground": null,
-        "nearest_playground_distance": 840.35
+        "playground_count": 1,
+        "children_per_playground": 68.66,
+        "nearest_playground_distance": 190.86
       },
       "geometry": {
         "type": "MultiPolygon",

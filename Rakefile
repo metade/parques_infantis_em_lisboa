@@ -1,10 +1,61 @@
+require "rake/clean"
 require "json"
+require "open-uri"
+require "csv"
 require "h3"
 require_relative "lib/lisbon"
 require_relative "lib/playgrounds"
 require_relative "lib/my_geojson_feature"
 
-task :build_data do
+CLEAN.include(
+  "data/src/extra_playgrounds.csv",
+  "docs/data/playgrounds.geojson",
+  "docs/data/bgri_analysis.geojson",
+  "docs/data/h3_bgri_analysis.geojson"
+)
+
+task build: [
+  "docs/data/bgri_analysis.geojson",
+  "docs/data/h3_bgri_analysis.geojson"
+]
+
+file "data/src/extra_playgrounds.csv" do
+  url = ENV.fetch("EXTRA_PLAYGROUNDS_URL", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRvEr455sf7o24TvGXp3wvOuYEHUvePC6Bi6yT5yTXARtazHvZlynhxnAELa3s0CbWAYVO2SLzhy_Fy/pub?gid=0&single=true&output=csv")
+  File.write("data/src/extra_playgrounds.csv", URI.open(url).read)
+end
+
+file "docs/data/playgrounds.geojson": "data/src/extra_playgrounds.csv" do
+  data = JSON.parse(File.read("data/src/parques_infantis.geojson"))
+  data["features"].map! do |feature|
+    feature["properties"] = {
+      morada: feature["properties"]["MORADA"],
+      designacao: feature["properties"]["DESIGNACAO"],
+      gestao: feature["properties"]["GESTAO"],
+      servico_cml: feature["properties"]["SERVICO_CML"]
+    }
+    feature
+  end
+  extra_playgrounds = CSV.parse(open("data/src/extra_playgrounds.csv").read, headers: true).map(&:to_h)
+  data["features"] += extra_playgrounds.map do |row|
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [row["Longitude"].to_f, row["Latitude"].to_f]
+      },
+      properties: {
+        morada: row["Morada"],
+        designacao: row["Designação"],
+        gestao: row["Gestão"],
+        servico_cml: row["Serviço CML"]
+      }
+    }
+  end
+
+  File.write("docs/data/playgrounds.geojson", JSON.pretty_generate(data))
+end
+
+file "docs/data/bgri_analysis.geojson": "docs/data/playgrounds.geojson" do
   lisbon = Lisbon.new
   playgrounds = Playgrounds.new
   data = JSON.parse(File.read("data/src/BGRI2021_1106.geojson"))
@@ -41,7 +92,7 @@ task :build_data do
   File.write("docs/data/bgri_analysis.geojson", JSON.pretty_generate(data))
 end
 
-task :build_h3_data do
+file "docs/data/h3_bgri_analysis.geojson": "docs/data/playgrounds.geojson" do
   lisbon = Lisbon.new
   playgrounds = Playgrounds.new
   data = JSON.parse(File.read("data/src/BGRI2021_1106.geojson"))
@@ -97,7 +148,6 @@ task :build_h3_data do
       end
     end
 
-  p h3_data.size
   geojson_data = {
     type: "FeatureCollection",
     features: empty_features + h3_data.map do |h3_index, data|
