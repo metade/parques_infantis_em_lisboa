@@ -119,6 +119,26 @@ Promise.all([
   setupFreguesiaFilters(hexLayer);
 });
 
+function getBoundsForVisibleFreguesias(geoJsonLayer, visibleFreguesias) {
+  let bounds = null;
+
+  geoJsonLayer.eachLayer((layer) => {
+    const props = layer.feature.properties;
+    const fregList = props.freguesias || [];
+
+    if (fregList.some((f) => visibleFreguesias.has(f))) {
+      const layerBounds = layer.getBounds
+        ? layer.getBounds()
+        : layer.getLatLng().toBounds(10); // fallback
+      bounds = bounds
+        ? bounds.extend(layerBounds)
+        : L.latLngBounds(layerBounds);
+    }
+  });
+
+  return bounds;
+}
+
 function setupFreguesiaFilters(geoJsonLayer) {
   const checkboxContainer = document.getElementById("freguesia-checkboxes");
   const selectAllCheckbox = document.getElementById("select-all-freguesias");
@@ -185,6 +205,13 @@ function setupFreguesiaFilters(geoJsonLayer) {
         }
       }
     });
+    const bounds = getBoundsForVisibleFreguesias(
+      geoJsonLayer,
+      visibleFreguesias,
+    );
+    if (bounds && visibleFreguesias.size > 0) {
+      map.fitBounds(bounds, { padding: [0, 0], maxZoom: 18 });
+    }
   }
 
   // Listen for individual checkbox changes
