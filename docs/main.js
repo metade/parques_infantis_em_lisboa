@@ -33,9 +33,9 @@ Promise.all([
       let fill;
       if (dist == null) {
         fill = "black"; // debug
-      } else if (dist <= 500) {
+      } else if (dist <= 200) {
         fill = "#2e7d32"; // green
-      } else if (dist <= 800) {
+      } else if (dist <= 400) {
         fill = "#fdd835"; // yellow
       } else if (dist <= 1000) {
         fill = "#e53935"; // red
