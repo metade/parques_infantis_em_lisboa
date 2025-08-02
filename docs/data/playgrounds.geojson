@@ -3670,6 +3670,22 @@
         "gestao": "N/A",
         "servico_cml": "N/A"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.12334,
+          38.7290991
+        ]
+      },
+      "properties": {
+        "morada": "Praça da Parada do Alto de São João",
+        "designacao": "Alto da Parada de São João",
+        "gestao": "N/A",
+        "servico_cml": "N/A"
+      }
     }
   ]
 }
