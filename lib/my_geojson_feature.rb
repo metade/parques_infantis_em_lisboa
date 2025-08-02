@@ -2,7 +2,7 @@ require "h3"
 require "active_support/core_ext/enumerable"
 
 class MyGeoJsonFeature
-  H3_RESOLUTION = 9
+  H3_RESOLUTION = 10
   attr_reader :factory
 
   def initialize(data, factory: nil)
