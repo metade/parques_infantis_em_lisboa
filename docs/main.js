@@ -47,7 +47,7 @@ Promise.all([
 
       return {
         color: "#444",
-        weight: 1,
+        weight: 0,
         fillColor: fill,
         fillOpacity: opacity,
       };
@@ -136,16 +136,30 @@ function setupFreguesiaFilters(geoJsonLayer) {
   });
 
   const freguesiaList = Array.from(freguesiaSet).sort();
-  const visibleFreguesias = new Set(freguesiaList);
+  const visibleFreguesias = new Set();
+
+  // Pick freguesias from URL
+  function getSelectedFreguesiasFromQuery() {
+    const params = new URLSearchParams(window.location.search);
+    const fregParam = params.get("freguesia");
+    return fregParam ? fregParam.split(",").map((s) => s.trim()) : [];
+  }
+
+  const initialSelection = new Set(getSelectedFreguesiasFromQuery());
 
   // Generate checkboxes
   freguesiaList.forEach((name) => {
     const id = `freguesia-${name.replace(/\s+/g, "-")}`;
     const label = document.createElement("label");
+
+    const isChecked = initialSelection.size === 0 || initialSelection.has(name);
+    if (isChecked) visibleFreguesias.add(name);
+
     label.innerHTML = `
-      <input type="checkbox" id="${id}" value="${name}" checked />
+      <input type="checkbox" id="${id}" value="${name}" ${isChecked ? "checked" : ""} />
       ${name}
     `;
+
     checkboxContainer.appendChild(label);
     checkboxContainer.appendChild(document.createElement("br"));
   });
@@ -187,6 +201,17 @@ function setupFreguesiaFilters(geoJsonLayer) {
     const allChecked = Array.from(allCheckboxes).every((cb) => cb.checked);
     selectAllCheckbox.checked = allChecked;
 
+    // Update query string
+    const params = new URLSearchParams(window.location.search);
+    if (visibleFreguesias.size > 0) {
+      params.set("freguesia", Array.from(visibleFreguesias).join(","));
+    } else {
+      params.delete("freguesia");
+    }
+
+    const newUrl = `${window.location.pathname}?${params.toString()}`;
+    window.history.replaceState({}, "", newUrl);
+
     updateLayerVisibility();
   });
 
@@ -202,6 +227,11 @@ function setupFreguesiaFilters(geoJsonLayer) {
       cb.checked = checked;
       if (checked) visibleFreguesias.add(cb.value);
     });
+
+    const params = new URLSearchParams(window.location.search);
+    params.delete("freguesia");
+    const newUrl = `${window.location.pathname}?${params.toString()}`;
+    window.history.replaceState({}, "", newUrl);
 
     updateLayerVisibility();
   });
