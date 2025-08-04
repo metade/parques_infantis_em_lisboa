@@ -5,6 +5,7 @@ require "csv"
 require "h3"
 require_relative "lib/lisbon"
 require_relative "lib/playgrounds"
+require_relative "lib/quiosques"
 require_relative "lib/my_geojson_feature"
 
 CLEAN.include(
@@ -25,6 +26,8 @@ file "data/src/extra_playgrounds.csv" do
 end
 
 file "docs/data/playgrounds.geojson": "data/src/extra_playgrounds.csv" do
+  quiosques = Quiosques.new
+
   data = JSON.parse(File.read("data/src/parques_infantis.geojson"))
   data["features"].map! do |feature|
     feature["properties"] = {
@@ -38,18 +41,23 @@ file "docs/data/playgrounds.geojson": "data/src/extra_playgrounds.csv" do
   extra_playgrounds = CSV.parse(open("data/src/extra_playgrounds.csv").read, headers: true).map(&:to_h)
   data["features"] += extra_playgrounds.map do |row|
     {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [row["Longitude"].to_f, row["Latitude"].to_f]
+      "type" => "Feature",
+      "geometry" => {
+        "type" => "Point",
+        "coordinates" => [row["Longitude"].to_f, row["Latitude"].to_f]
       },
-      properties: {
-        morada: row["Morada"],
-        designacao: row["Designação"],
-        gestao: row["Gestão"],
-        servico_cml: row["Serviço CML"]
+      "properties" => {
+        "morada" => row["Morada"],
+        "designacao" => row["Designação"],
+        "gestao" => row["Gestão"],
+        "servico_cml" => row["Serviço CML"]
       }
     }
+  end
+
+  data["features"].each do |feature|
+    lng, lat = feature["geometry"]["coordinates"]
+    feature["properties"]["distance_from_quiosque"] = quiosques.closest_quiosque_distance(lat, lng)
   end
 
   File.write("docs/data/playgrounds.geojson", JSON.pretty_generate(data))

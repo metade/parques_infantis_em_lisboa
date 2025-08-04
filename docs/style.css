@@ -101,3 +101,12 @@ body {
     font-size: 13px;
     color: #333;
 }
+
+.emoji-overlay {
+    font-size: 14px;
+    pointer-events: none;
+    text-align: center;
+    line-height: 1;
+    pointer-events: none; /* 🚫 absolutely essential */
+    user-select: none;
+}

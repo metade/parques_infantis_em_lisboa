@@ -87,7 +87,7 @@ Promise.all([
           color = "gray";
       }
 
-      return L.circleMarker(latlng, {
+      const circle = L.circleMarker(latlng, {
         radius: 8,
         fillColor: color,
         color: "#333",
@@ -95,6 +95,25 @@ Promise.all([
         opacity: 1,
         fillOpacity: 0.8,
       });
+
+      const distance = feature.properties.distance_from_quiosque;
+
+      if (distance != null && distance < 100) {
+        const emojiIcon = L.divIcon({
+          className: "emoji-overlay",
+          html: "☕️",
+          iconSize: [16, 16],
+          iconAnchor: [8, 8],
+        });
+        const emojiMarker = L.marker(latlng, {
+          icon: emojiIcon,
+          interactive: false,
+        });
+
+        return L.layerGroup([circle, emojiMarker]);
+      } else {
+        return circle;
+      }
     },
 
     onEachFeature: function (feature, layer) {
@@ -112,7 +131,12 @@ Promise.all([
         <small><strong>Serviço CML:</strong> ${servico}</small>
       `;
 
-      layer.bindPopup(popupContent);
+      if (layer instanceof L.LayerGroup) {
+        const [circle] = layer.getLayers();
+        circle.bindPopup(popupContent);
+      } else {
+        layer.bindPopup(popupContent);
+      }
     },
   }).addTo(map);
 

@@ -15,7 +15,8 @@
         "morada": "Rua José Duro",
         "designacao": "Parque Infantil da Rua José Duro",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 135.208756221263
       }
     },
     {
@@ -32,7 +33,8 @@
         "morada": "Estrada da Serafina",
         "designacao": "Parque Infantil do Parque Urbano da Serafina",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 989.0133719653168
       }
     },
     {
@@ -49,7 +51,8 @@
         "morada": "Avenida General Roçadas",
         "designacao": "Parque Infantil da Avenida General Roçadas",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 74.08430821674568
       }
     },
     {
@@ -66,7 +69,8 @@
         "morada": "Alameda Mahatma Gandhi",
         "designacao": "Parque Infantil da Alameda Mahatma Gandhi 1",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 929.9457242625173
       }
     },
     {
@@ -83,7 +87,8 @@
         "morada": "Rua da Quinta do Charquinho(antiga Rua A à Quinta do Charquinho)",
         "designacao": "Parque Infantil do Bairro da Quinta do Charquinho",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 228.28741631547945
       }
     },
     {
@@ -100,7 +105,8 @@
         "morada": "Rua Natália Correia",
         "designacao": "Parque Infantil da Rua Natália Correia",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 133.60216908577277
       }
     },
     {
@@ -117,7 +123,8 @@
         "morada": "Largo Ramada Curto(antigo Impasse G da Quinta das Laranjeiras)",
         "designacao": "Parque Infantil do Largo Ramada Curto, Bairro Quinta das Laranjeiras",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 417.67121747647775
       }
     },
     {
@@ -134,7 +141,8 @@
         "morada": "Largo do Marquês de Angeja",
         "designacao": "Parque Infantil do Largo do Marquês de Angeja",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 243.86048437507506
       }
     },
     {
@@ -151,7 +159,8 @@
         "morada": "Rua de Manhiça(antiga Rua E1 e Imp. E da Célula E de Olivais Sul), junto ao lote 463",
         "designacao": "Parque Infantil da Rua de Manhiça",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 634.4072929560614
       }
     },
     {
@@ -168,7 +177,8 @@
         "morada": "Rua do Vigário",
         "designacao": "Parque Infantil da Rua do Vigário",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 182.6313599858774
       }
     },
     {
@@ -185,7 +195,8 @@
         "morada": "Rua Xavier de Magalhães",
         "designacao": "Parque Infantil da Rua Xavier de Magalhães",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 379.3739202056887
       }
     },
     {
@@ -202,7 +213,8 @@
         "morada": "Rua Duarte Pacheco Pereira",
         "designacao": "Parque Infantil da Rua Duarte Pacheco Pereira",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 82.40006878121031
       }
     },
     {
@@ -219,7 +231,8 @@
         "morada": "Rua Cidade de Vila Cabral",
         "designacao": "Parque Infantil da Rua Cidade Vila Cabral",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 360.62474756976087
       }
     },
     {
@@ -236,7 +249,8 @@
         "morada": "Rua Eduardo Bairrada",
         "designacao": "Parque Infantil do Rio Seco 1",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 309.3205060916026
       }
     },
     {
@@ -253,7 +267,8 @@
         "morada": "Praça António Sardinha",
         "designacao": "Parque Infantil da Praça António Sardinha",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 89.65964918914977
       }
     },
     {
@@ -270,7 +285,8 @@
         "morada": "Largo da Boa-Hora à Ajuda",
         "designacao": "Parque Infantil do Largo da Boa-Hora",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 18.919146196041627
       }
     },
     {
@@ -287,7 +303,8 @@
         "morada": "Rua do Cruzado Osberno",
         "designacao": "Parque Infantil da  Rua do Cruzado Osberno",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 206.51853244405382
       }
     },
     {
@@ -304,7 +321,8 @@
         "morada": "Praça das Flores",
         "designacao": "Parque Infantil da Praça Flores",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 50.11972064288427
       }
     },
     {
@@ -321,7 +339,8 @@
         "morada": "Avenida de Ceuta",
         "designacao": "Parque Infantil da Quinta do Cabrinha",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 392.8713349801843
       }
     },
     {
@@ -338,7 +357,8 @@
         "morada": "Rua Adães Bermudes",
         "designacao": "Parque Infantil do Bairro dos Lóios",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 370.5134215238263
       }
     },
     {
@@ -355,7 +375,8 @@
         "morada": "Praça Andrade Caminha",
         "designacao": "Parque Infantil da Praça Andrade de Caminha",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 222.16898076135263
       }
     },
     {
@@ -372,7 +393,8 @@
         "morada": "Praça das Novas Nações",
         "designacao": "Parque Infantil da  Praça das Novas Nações",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 201.45834681285626
       }
     },
     {
@@ -389,7 +411,8 @@
         "morada": "Praça Cidade de São Salvador",
         "designacao": "Parque Infantil da Praça Cidade de São Salvador 1",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 149.675531866465
       }
     },
     {
@@ -406,7 +429,8 @@
         "morada": "Campo de Santa Clara",
         "designacao": "Parque Infantil do Jardim Botto Machado",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 308.79976831916935
       }
     },
     {
@@ -423,7 +447,8 @@
         "morada": "Largo Ocidental",
         "designacao": "Parque Infantil do Largo Ocidental",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 487.4465652768439
       }
     },
     {
@@ -440,7 +465,8 @@
         "morada": "Praça da Armada",
         "designacao": "Parque Infantil da Praça da Armada",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 173.43611263761196
       }
     },
     {
@@ -457,7 +483,8 @@
         "morada": "Rua dos Arneiros",
         "designacao": "Parque Infantil do Eucaliptal de Benfica",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 213.11677202332834
       }
     },
     {
@@ -474,7 +501,8 @@
         "morada": "Avenida dos Estados Unidos da América, Lotes 12-24",
         "designacao": "Parque Infantil Av Estados Unidos da América",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 132.98086244205237
       }
     },
     {
@@ -491,7 +519,8 @@
         "morada": "Rua Cândido de Oliveira(antiga Rua G da Célula F de Olivais Sul)",
         "designacao": "Parque Infantil da Rua Cândido de Oliveira",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 651.7763498690331
       }
     },
     {
@@ -508,7 +537,8 @@
         "morada": "Estrada do Alvito, Parque Infantil do Alvito",
         "designacao": "Parque Aventura do Parque Recreativo do Alvito",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 1544.7287587385779
       }
     },
     {
@@ -525,7 +555,8 @@
         "morada": "Rua Leão de Oliveira",
         "designacao": "Parque Infantil do Mercado Rosa Agulhas",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 254.36334906814577
       }
     },
     {
@@ -542,7 +573,8 @@
         "morada": "Rua Teixeira de Pascoais",
         "designacao": "Parque Infantil da Rua Teixeira de Pascoais",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 271.8613929374707
       }
     },
     {
@@ -559,7 +591,8 @@
         "morada": "Rua Vila de Bissorã",
         "designacao": "Parque Infantil da Rua Vila de Bissorã",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 125.34606058824622
       }
     },
     {
@@ -576,7 +609,8 @@
         "morada": "Praça do Príncipe Real",
         "designacao": "Parque Infantil França Borges / Praça do Príncipe Real",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 84.34058319643577
       }
     },
     {
@@ -593,7 +627,8 @@
         "morada": "Rua da Igreja ao Bairro do Caramão da Ajuda",
         "designacao": "Parque Intergeracional do Largo Oriental",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 640.2759609929673
       }
     },
     {
@@ -610,7 +645,8 @@
         "morada": "Vila Dias(Beco dos Toucinheiros, 12-B)",
         "designacao": "Parque Infantil da Vila Dias",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 180.35404495191216
       }
     },
     {
@@ -627,7 +663,8 @@
         "morada": "Rua Aquiles Machado",
         "designacao": "Parque Infantil da Rua Aquiles Machado",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 143.0435522015781
       }
     },
     {
@@ -644,7 +681,8 @@
         "morada": "Praça General Vicente de Freitas",
         "designacao": "Parque Infantil da Praça General Vicente de Freitas",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 129.83776540574905
       }
     },
     {
@@ -661,7 +699,8 @@
         "morada": "Campo Pequeno",
         "designacao": "Parque Infantil do Jardim Marquês de Marialva",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 43.55120691959545
       }
     },
     {
@@ -678,7 +717,8 @@
         "morada": "Rua do Alto do Chapeleiro(antiga Rua A da Urb. do Alto do Chapeleiro)",
         "designacao": "Parque Infantil da Rua do Alto do Chapeleiro",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 1218.6632929458203
       }
     },
     {
@@ -695,7 +735,8 @@
         "morada": "Rua André de Gouveia",
         "designacao": "Parque Infantil da Rua André Gouveia",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 499.3842619000462
       }
     },
     {
@@ -712,7 +753,8 @@
         "morada": "Rua Júlio de Andrade",
         "designacao": "Parque Infantil do Jardim do Torel",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 190.1014618885094
       }
     },
     {
@@ -729,7 +771,8 @@
         "morada": "Rua de Pascoal de Melo",
         "designacao": "Parque Infantil do Jardim Constantino",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 36.99355831834154
       }
     },
     {
@@ -746,7 +789,8 @@
         "morada": "Rua da Imprensa à Estrela, Jardim Elisa Baptista Sousa Pedroso",
         "designacao": "Parque Infantil do Jardim Elisa Baptista de Sousa Pedroso",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 341.8380531740649
       }
     },
     {
@@ -763,7 +807,8 @@
         "morada": "Rua do Dondo",
         "designacao": "Parque Infantil da Rua do Dondo 2",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 496.8687130872999
       }
     },
     {
@@ -780,7 +825,8 @@
         "morada": "Rua Eduardo Bairrada",
         "designacao": "Parque Infantil do Rio Seco 2",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 270.36967844197034
       }
     },
     {
@@ -797,7 +843,8 @@
         "morada": "Rua Alfredo Franco(antigas Ruas A e B à Avenida Dr. Alfredo Bensaúde)",
         "designacao": "Parque Infantil da Rua Alfredo Franco",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 475.8413961243675
       }
     },
     {
@@ -814,7 +861,8 @@
         "morada": "Alameda Roentgen(antiga Alameda Central à Quinta dos Inglesinhos), Entre 3 e 7",
         "designacao": "Parque Infantil Al Roentgen",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 82.21079040617587
       }
     },
     {
@@ -831,7 +879,8 @@
         "morada": "Rua António Luís Inácio",
         "designacao": "Parque Infantil do Jardim Bulhão Pato",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 318.59504294017586
       }
     },
     {
@@ -848,7 +897,8 @@
         "morada": "Rua Jau",
         "designacao": "Parque Infantil do Jardim Avelar Brotero",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 38.19957022553101
       }
     },
     {
@@ -865,7 +915,8 @@
         "morada": "Rua Quinta da Assunção",
         "designacao": "Parque Infantil da Urbanização das Galinheiras",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 2300.52795302349
       }
     },
     {
@@ -882,7 +933,8 @@
         "morada": "Rua Manuel Marques(antiga Rua I do Loteamento da Quinta das Pedreiras)",
         "designacao": "Parque Infantil Salgueiro Maia",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 145.81998712357193
       }
     },
     {
@@ -899,7 +951,8 @@
         "morada": "Rua Tristão Vaz, Parque Recreativo dos Moinhos",
         "designacao": "Parque Infantil do Parque Recreativo Moínhos de Santana",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 92.75932858272802
       }
     },
     {
@@ -916,7 +969,8 @@
         "morada": "Avenida Almirante Gago Coutinho, Parque de Alvalade",
         "designacao": "Parque Infantil do Parque José Gomes Ferreira",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 303.44884482785744
       }
     },
     {
@@ -933,7 +987,8 @@
         "morada": "Alameda Mahatma Gandhi",
         "designacao": "Parque Infantil da Alameda Mahatma Gandhi 2",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 914.5554052206859
       }
     },
     {
@@ -950,7 +1005,8 @@
         "morada": "Largo do Conde de Bonfim",
         "designacao": "Parque Infantil do Largo do Conde de Bonfim",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 94.01470542606732
       }
     },
     {
@@ -967,7 +1023,8 @@
         "morada": "Rua Dr. Manuel Espírito Santo",
         "designacao": "Parque Infantil do Bairro da Quinta do Ourives",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 259.31217842716677
       }
     },
     {
@@ -984,7 +1041,8 @@
         "morada": "Rua General Schiappa Monteiro",
         "designacao": "Parque Infantil do Bairro de São João",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 238.38514656890823
       }
     },
     {
@@ -1001,7 +1059,8 @@
         "morada": "Avenida Grão Vasco, Parque Silva Porto",
         "designacao": "Parque Infantil do Parque Silva Porto",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 276.7741556814197
       }
     },
     {
@@ -1018,7 +1077,8 @@
         "morada": "Rua Julieta Ferrão",
         "designacao": "Parque Infantil da Rua Julieta Ferrão",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 435.2286773992896
       }
     },
     {
@@ -1035,7 +1095,8 @@
         "morada": "Rua Adriana de Vecchi(antiga Rua 7.11, Rua 7.12 e Rua A da Malha 7)",
         "designacao": "Parque Infantil do PER 10-Malha 25",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 879.2109641631264
       }
     },
     {
@@ -1052,7 +1113,8 @@
         "morada": "Praça de Londres",
         "designacao": "Parque Infantil da Praça de Londres",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 100.44996741393332
       }
     },
     {
@@ -1069,7 +1131,8 @@
         "morada": "Alameda Cardeal Cerejeira",
         "designacao": "Parque Infantil do Parque Eduardo VII de Inglaterra",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 269.73605554493565
       }
     },
     {
@@ -1086,7 +1149,8 @@
         "morada": "Avenida de Ceuta",
         "designacao": "Parque Infantil da Avenida de Ceuta",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 902.5008225471435
       }
     },
     {
@@ -1103,7 +1167,8 @@
         "morada": "Largo dos Castanheiros da Índia(antigo Largo junto à Rua Dinah Silveira de Queiroz)",
         "designacao": "Parque Infantil do Bairro da Quinta da Salgada",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 640.8029179006127
       }
     },
     {
@@ -1120,7 +1185,8 @@
         "morada": "Rua António Macedo(antiga Rua A do Bairro do Calhau)",
         "designacao": "Parque Infantil do Bairro do Calhau",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 554.5394169538191
       }
     },
     {
@@ -1137,7 +1203,8 @@
         "morada": "Rua Jorge Amado(antiga Rua M1 da Zona M de Chelas)",
         "designacao": "Parque Infantil da Bela Vista Zona Sul (Área recreativa e desportiva)",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 458.30591411542133
       }
     },
     {
@@ -1154,7 +1221,8 @@
         "morada": "Rua João Frederico Ludovice",
         "designacao": "Parque Infantil da Rua João Frederico Ludovice",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 109.90706494822514
       }
     },
     {
@@ -1171,7 +1239,8 @@
         "morada": "Avenida dos Estados Unidos da América, estacionamento",
         "designacao": "Parque Infantil da Avenida Estados Unidos da América- Lado Nascente",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 194.00266039810572
       }
     },
     {
@@ -1188,7 +1257,8 @@
         "morada": "Praça Cidade de São Salvador",
         "designacao": "Parque Infantil da Praça Cidade de São Salvador 2",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 126.76932810456351
       }
     },
     {
@@ -1205,7 +1275,8 @@
         "morada": "Rua Mem de Sá",
         "designacao": "Parque Infantil da Quinta das Fonsecas",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 174.74600382988856
       }
     },
     {
@@ -1222,7 +1293,8 @@
         "morada": "Rua Prof. Alfredo de Sousa(antiga Rua B e Imp E1 da Urb. do Paço do Lumiar)",
         "designacao": "Parque Infantil da Rua Prof. Alfredo de Sousa",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 848.2467680685072
       }
     },
     {
@@ -1239,7 +1311,8 @@
         "morada": "Campo dos Mártires da Pátria, Jardim do Campo Santana",
         "designacao": "Parque Infantil do Jardim Braamcamp Freire",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 89.3664272847405
       }
     },
     {
@@ -1256,7 +1329,8 @@
         "morada": "Rua Costa Mota",
         "designacao": "Parque Infantil do Bairro das Furnas",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 225.8054533094604
       }
     },
     {
@@ -1273,7 +1347,8 @@
         "morada": "Rua Dr. José Espírito Santo(antiga Rua I4 da Malha I de Chelas)",
         "designacao": "Parque Infantil do Bairro das Amendoeiras",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 184.69026286215467
       }
     },
     {
@@ -1290,7 +1365,8 @@
         "morada": "Praça João do Rio, Jardim",
         "designacao": "Parque Infantil da Praça João do Rio 1",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 206.2709285102091
       }
     },
     {
@@ -1307,7 +1383,8 @@
         "morada": "Rua Prof. Mário de Albuquerque(antigo Impasse 2 à Rua Professor Simões Raposo)",
         "designacao": "Parque Infantil da Rua Professor Mário de Albuquerque",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 226.48549416548053
       }
     },
     {
@@ -1324,7 +1401,8 @@
         "morada": "Largo Caselas",
         "designacao": "Parque Infantil do Bairro de Caselas",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 1112.179105073754
       }
     },
     {
@@ -1341,7 +1419,8 @@
         "morada": "Rua Pedro de Azevedo(antiga Rua C e Impasse C1 do Bairro da Prodac)",
         "designacao": "Parque Infantil da Rua  Pedro de Azevedo",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 373.75116510703117
       }
     },
     {
@@ -1358,7 +1437,8 @@
         "morada": "Rua Maestro Jaime Silva (Filho)",
         "designacao": "Parque Infantil do Parque Bensaúde",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 375.90410236192025
       }
     },
     {
@@ -1375,7 +1455,8 @@
         "morada": "Praça António Sardinha",
         "designacao": "Parque Infantil Inclusivo da Praça António Sardinha",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 75.8063677079744
       }
     },
     {
@@ -1392,7 +1473,8 @@
         "morada": "Praça João do Rio",
         "designacao": "Parque Infantil da Praça João do Rio 2",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 202.16895898423914
       }
     },
     {
@@ -1409,7 +1491,8 @@
         "morada": "Rua António Patrício",
         "designacao": "Parque Infantil da Rua António Patrício",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 155.44530129309592
       }
     },
     {
@@ -1426,7 +1509,8 @@
         "morada": "Azinhaga dos Barros",
         "designacao": "Parque Infantil da Azinhaga dos Barros",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 18.848937636710595
       }
     },
     {
@@ -1443,7 +1527,8 @@
         "morada": "Rua Dr. Henrique Martins Gomes",
         "designacao": "Parque Infantil da Rua Dr. Henrique Martins Gomes",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 92.35048213978573
       }
     },
     {
@@ -1460,7 +1545,8 @@
         "morada": "Rua Lucília Simões",
         "designacao": "Parque Infantil da Rua Lucilia Simões",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 160.7919851068745
       }
     },
     {
@@ -1477,7 +1563,8 @@
         "morada": "Avenida do Colégio Militar",
         "designacao": "Parque Infantil da Quinta da Granja",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 106.74664308934314
       }
     },
     {
@@ -1494,7 +1581,8 @@
         "morada": "Rua do Dondo",
         "designacao": "Parque Infantil da Rua de Dondo ",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 494.3979182859208
       }
     },
     {
@@ -1511,7 +1599,8 @@
         "morada": "Rua Dr. João Couto",
         "designacao": "Parque Infantil da Rua Dr. João do Couto",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 65.00959810174676
       }
     },
     {
@@ -1528,7 +1617,8 @@
         "morada": "Largo Pedro Correia Marques",
         "designacao": "Parque Infantil do Largo Pedro Correia Marques",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 254.39701952056905
       }
     },
     {
@@ -1545,7 +1635,8 @@
         "morada": "Campo Grande",
         "designacao": "Parque Infantil do Campo Grande",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 348.35787804603353
       }
     },
     {
@@ -1562,7 +1653,8 @@
         "morada": "Rua Professor Francisco Gentil(antiga Rua 7 da Zona de Telheiras)",
         "designacao": "Parque Infantil da Rua Professor Francisco Gentil",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 196.38982932456653
       }
     },
     {
@@ -1579,7 +1671,8 @@
         "morada": "Alameda das Linhas de Torres",
         "designacao": "Parque Infantil do Parque de Quinta das Conchas",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 280.97362390866755
       }
     },
     {
@@ -1596,7 +1689,8 @@
         "morada": "Praça das Amoreiras",
         "designacao": "Parque Infantil do Jardim Marcelino Mesquita",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 290.8876591753908
       }
     },
     {
@@ -1613,7 +1707,8 @@
         "morada": "Rua de Diogo Cão",
         "designacao": "Parque Infantil da Rua de Diogo Cão",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 118.53384311039143
       }
     },
     {
@@ -1630,7 +1725,8 @@
         "morada": "Avenida dos Estados Unidos da América",
         "designacao": "Parque Infantil da Avenida Estados Unidos da América",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 202.89410369068045
       }
     },
     {
@@ -1647,7 +1743,8 @@
         "morada": "Alameda Dom Afonso Henriques, Jardim",
         "designacao": "Parque Infantil da Alameda Dom Afonso Henriques",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 51.478108696102815
       }
     },
     {
@@ -1664,7 +1761,8 @@
         "morada": "Rua Dr. Cunha Seixas",
         "designacao": "Parque Infantil da Rua Dr. Cunha Seixas",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 383.6924016886335
       }
     },
     {
@@ -1681,7 +1779,8 @@
         "morada": "Alameda Keil do Amaral",
         "designacao": "Parque Infantil da Alameda Keil do Amaral",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 1730.6892036486079
       }
     },
     {
@@ -1698,7 +1797,8 @@
         "morada": "Estrada de Monsanto",
         "designacao": "Parque Infantil do Monte Verde",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 2060.2650155441984
       }
     },
     {
@@ -1715,7 +1815,8 @@
         "morada": "Rua Maria Violante Vieira",
         "designacao": "Parque Infantil da Rua Maria Violante Vieira",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 542.8191276613824
       }
     },
     {
@@ -1732,7 +1833,8 @@
         "morada": "Rua General José Paulo Fernandes",
         "designacao": "Parque Infantil Lisboa Ocidental",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 111.35387836574083
       }
     },
     {
@@ -1749,7 +1851,8 @@
         "morada": "Avenida João Paulo II",
         "designacao": "Parque Infantil da Avenida João Paulo II",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 114.26537924952866
       }
     },
     {
@@ -1766,7 +1869,8 @@
         "morada": "Rua Cardeal Saraiva(antiga Rua A à Avenida José Malhoa)",
         "designacao": "Parque Infantil dos Jardins de Campolide",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 180.23233130417395
       }
     },
     {
@@ -1783,7 +1887,8 @@
         "morada": "Rua da Fábrica de Estamparia",
         "designacao": "Parque Infantil da Rua Carlos Botelho",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 530.607525538142
       }
     },
     {
@@ -1800,7 +1905,8 @@
         "morada": "Rua Adriana de Vecchi(antiga Rua 7.11, Rua 7.12 e Rua A da Malha 7)",
         "designacao": "Parque Infantil da Ria Adriana Vecchi 2",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 717.1497256072614
       }
     },
     {
@@ -1817,7 +1923,8 @@
         "morada": "Calçada do Monte",
         "designacao": "Parque Infantil do Jardim da Cerca da Graça 2",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 173.9160712351464
       }
     },
     {
@@ -1834,7 +1941,8 @@
         "morada": "Calçada do Monte",
         "designacao": "Parque Infantil do Jardim da Cerca de Graça 1",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 182.06842759192162
       }
     },
     {
@@ -1851,7 +1959,8 @@
         "morada": "Passeio dos Heróis do Mar",
         "designacao": "Parque Juvenil  do Parque Tejo",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 494.5184934450525
       }
     },
     {
@@ -1868,7 +1977,8 @@
         "morada": "Avenida de Berlim",
         "designacao": "Parque Infantil do Parque Urbano dos Olivais",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 452.1969195653831
       }
     },
     {
@@ -1885,7 +1995,8 @@
         "morada": "Alameda das Linhas de Torres",
         "designacao": "Parque Infantil Quinta dos Lilazes",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 158.11189668061417
       }
     },
     {
@@ -1902,7 +2013,8 @@
         "morada": "Avenida Dr. Francisco Luís Gomes",
         "designacao": "Parque Infantil da Quinta Conde d'Arcos",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 136.98451246828574
       }
     },
     {
@@ -1919,7 +2031,8 @@
         "morada": "Campo Grande",
         "designacao": "Parque Juvenil do Campo Grande",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 305.8844222098896
       }
     },
     {
@@ -1936,7 +2049,8 @@
         "morada": "Rua Gomes de Brito",
         "designacao": "Parque Infantil da Bela Vista Zona Centro",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 454.1763710017249
       }
     },
     {
@@ -1953,7 +2067,8 @@
         "morada": "Rua Agostinho Neto(antigo Arruamento B do Plano Urb Quinta do Lambert)",
         "designacao": "Parque Infantil do Parque Europa",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 83.13439987854755
       }
     },
     {
@@ -1970,7 +2085,8 @@
         "morada": "Avenida Marquês de Tomar",
         "designacao": "Parque Infantil da Avenida Marquês de Tomar",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 94.34102044548528
       }
     },
     {
@@ -1987,7 +2103,8 @@
         "morada": "Rua C do Bairro da Liberdade",
         "designacao": "Parque Infantil do Bairro da Liberdade",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 619.9370174145363
       }
     },
     {
@@ -2004,7 +2121,8 @@
         "morada": "Rua do Capelão",
         "designacao": "Parque Infantil da Rua do Capelão",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 145.23571723698265
       }
     },
     {
@@ -2021,7 +2139,8 @@
         "morada": "Rua Prof. Adelino da Palma Carlos",
         "designacao": "Parque Infantil do Vale da Ameixoeira",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 1055.000416129615
       }
     },
     {
@@ -2038,7 +2157,8 @@
         "morada": "Rua Prof. Cid dos Santos",
         "designacao": "Parque Infantil do Bairro 2 de Maio",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 770.8970243735495
       }
     },
     {
@@ -2055,7 +2175,8 @@
         "morada": "Avenida Marechal António de Spínola",
         "designacao": "Parque Infantil da Quinta da Montanha",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 257.20175170069257
       }
     },
     {
@@ -2072,7 +2193,8 @@
         "morada": "Rua do Colégio de São José",
         "designacao": "Parque Infantil da Encosta do Gravato (Aquaparque)",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 951.2409909246412
       }
     },
     {
@@ -2089,7 +2211,8 @@
         "morada": "Rua do Recolhimento, Parque Infantil ",
         "designacao": "Parque Infantil e de Lazer do Recolhimento",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 141.77997672078743
       }
     },
     {
@@ -2106,7 +2229,8 @@
         "morada": "Rua Reis Pinto, Parque Infantil Rua Reis Pinto",
         "designacao": "Parque Infantil Rua Reis Pinto",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 1240.1924082254184
       }
     },
     {
@@ -2123,7 +2247,8 @@
         "morada": "Rua Fernando Maurício(antiga Rua Proj. Sul e Nasc. - Urb. Vale For. Cima)",
         "designacao": "Parque Infantil da Rua Fernando Mauricio",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 500.7385168242369
       }
     },
     {
@@ -2140,7 +2265,8 @@
         "morada": "Alameda da Música(antigo Arrua. Inte. da Malha 15 - Alto do Lumiar)",
         "designacao": "Parque Infantil da Alameda da Música 1 ",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 867.0348406570305
       }
     },
     {
@@ -2157,7 +2283,8 @@
         "morada": "Alameda da Música(antigo Arrua. Inte. da Malha 15 - Alto do Lumiar)",
         "designacao": "Parque Infantil da Alameda da Música 2 ",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 899.9460832701009
       }
     },
     {
@@ -2174,7 +2301,8 @@
         "morada": "Rua Cidade de Cádiz",
         "designacao": "Parque Infantil da Rua Cidade de Cádiz",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 57.866551244221185
       }
     },
     {
@@ -2191,7 +2319,8 @@
         "morada": "Rua das Escolas Gerais",
         "designacao": "Parque Infantil da Rua das Escolas Gerais",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 194.84070258242852
       }
     },
     {
@@ -2208,7 +2337,8 @@
         "morada": "Rua da Bela-Flor(antiga Rua A da Quinta da Bela-Flor à Cascalheira)",
         "designacao": "Parque Infantil da Quinta da Bela-Flor",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 623.6683619032434
       }
     },
     {
@@ -2225,7 +2355,8 @@
         "morada": "Rua Luís Cristino da Silva(antiga Via Comercial da Zona N2 de Chelas)",
         "designacao": "Parque Infantil do Vale de Chelas (Zona Norte)",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 230.31500564021061
       }
     },
     {
@@ -2242,7 +2373,8 @@
         "morada": "Rua Dr. Cunha Seixas",
         "designacao": "Parque Infantil da Rua Dr. Cunha Seixas 2",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 380.42434136323084
       }
     },
     {
@@ -2259,7 +2391,8 @@
         "morada": "Rua de Campolide",
         "designacao": "Parque Infantil da Quinta José Pinto",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 360.5580233106201
       }
     },
     {
@@ -2276,7 +2409,8 @@
         "morada": "Rua Gomes de Brito",
         "designacao": "Parque Juvenil da Bela Vista Zona Centro",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 467.41178297479576
       }
     },
     {
@@ -2293,7 +2427,8 @@
         "morada": "Rua Filipe da Mata",
         "designacao": "Parque Infantil Filipe da Mata",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 316.20011239302477
       }
     },
     {
@@ -2310,7 +2445,8 @@
         "morada": "Rua Guiomar Torresão",
         "designacao": "Parque Infantil da Rua Guiomar Torresão",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 636.6624972042874
       }
     },
     {
@@ -2327,7 +2463,8 @@
         "morada": "Avenida de António José de Almeida",
         "designacao": "Parque Infantil do Jardim Gomes Amorim",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 109.29067747532052
       }
     },
     {
@@ -2344,7 +2481,8 @@
         "morada": "Jardim Bento Martins",
         "designacao": "Parque Infantil do Jardim Bento Martins",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 476.0357583552746
       }
     },
     {
@@ -2361,7 +2499,8 @@
         "morada": "Jardim Guerra Junqueiro(Jardim da Estrela)",
         "designacao": "Parque Juvenil do Jardim Guerra Junqueiro",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 271.43868079044597
       }
     },
     {
@@ -2378,7 +2517,8 @@
         "morada": "Autoparque Roma",
         "designacao": "Parque Infantil do Jardim Fernando Peça",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 94.64853972853402
       }
     },
     {
@@ -2395,7 +2535,8 @@
         "morada": "Largo de Santos o Novo",
         "designacao": "Parque Infantil do Largo de  Santos o Novo",
         "gestao": null,
-        "servico_cml": null
+        "servico_cml": null,
+        "distance_from_quiosque": 453.83861887069287
       }
     },
     {
@@ -2412,7 +2553,8 @@
         "morada": "Parque Ecológico CML, Parque Ecológico de Monsanto",
         "designacao": "Parque Infantil do Centro de Interpretação de Monsanto",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 734.8543517792724
       }
     },
     {
@@ -2429,7 +2571,8 @@
         "morada": "Rua Frederico George(antiga Rua B- Alto da Faia e Rua A - Enc Telheiras), junto ao polidesportivo do alto da faia",
         "designacao": "Parque Infantil do Alto da Faia",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 660.3633885688467
       }
     },
     {
@@ -2446,7 +2589,8 @@
         "morada": "Largo das Galinheiras",
         "designacao": "Parque Infantil das Galinheiras",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 2108.4455729036104
       }
     },
     {
@@ -2463,7 +2607,8 @@
         "morada": "Praça de Bilene, frente ao nº 1",
         "designacao": "Parque Infantil da Praça de Bilene",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 182.07283795417598
       }
     },
     {
@@ -2480,7 +2625,8 @@
         "morada": "Rua Prof. Mark Athias",
         "designacao": "Parque Infantil da Rua Professor Mark Athias",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 247.32684718642153
       }
     },
     {
@@ -2497,7 +2643,8 @@
         "morada": "Rua Almeida e Sousa",
         "designacao": "Parque Infantil do Jardim Teófilo Braga",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 117.01446142021845
       }
     },
     {
@@ -2514,7 +2661,8 @@
         "morada": "Rampa do Mercado",
         "designacao": "Parque Intergeracional das Galinheiras",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 2239.658209175656
       }
     },
     {
@@ -2531,7 +2679,8 @@
         "morada": "Rua Mateus Vicente(antiga V. Envolvente e Imp 5 da Urb do B. D Leonor)",
         "designacao": "Parque Infantil do Bairro D. Leonor",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 258.57475615729345
       }
     },
     {
@@ -2548,7 +2697,8 @@
         "morada": "Rua Ten. Coronel Ribeiro dos Reis",
         "designacao": "Parque Infantil da Rua Tenente-Coronel Ribeiro dos Reis",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 34.892928187851055
       }
     },
     {
@@ -2565,7 +2715,8 @@
         "morada": "Avenida de Madrid",
         "designacao": "Parque Infantil do Logradouro da Avenida de Madrid",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 210.30608712161833
       }
     },
     {
@@ -2582,7 +2733,8 @@
         "morada": "Rua das Acácias(antigo Impasse C1 do Bairro da Boavista)",
         "designacao": "Parque Infantil do Bairro da Boavista",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 1561.0282299523988
       }
     },
     {
@@ -2599,7 +2751,8 @@
         "morada": "Rua Marciano Henriques da Silva",
         "designacao": "Parque Infantil do Bairro Santos ao Rego",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 514.5541033406071
       }
     },
     {
@@ -2616,7 +2769,8 @@
         "morada": "Azinhaga do Reguengo",
         "designacao": "Parque Infantil do Parque Urbano do Reguengo",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 2287.1974576391985
       }
     },
     {
@@ -2633,7 +2787,8 @@
         "morada": "Rua Carlos Aboim Inglez(antiga Rua 6A do Alto do Lumiar)",
         "designacao": "Parque Infantil da Rua Carlos Aboim Inglez",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 1682.2630516792976
       }
     },
     {
@@ -2650,7 +2805,8 @@
         "morada": "Largo da Madre de Deus",
         "designacao": "Parque Infantil da Mata da Madre Deus",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 296.417494629183
       }
     },
     {
@@ -2667,7 +2823,8 @@
         "morada": "Travessa de São Domingos de Benfica",
         "designacao": "Parque Infantil da Mata de São Domingos de Benfica",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 332.46993049045426
       }
     },
     {
@@ -2684,7 +2841,8 @@
         "morada": "Praça Rainha Santa",
         "designacao": "Parque Infantil da Praça Rainha Santa",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 27.816085557498592
       }
     },
     {
@@ -2701,7 +2859,8 @@
         "morada": "Rua General Justiniano Padrel",
         "designacao": "Parque Infantil da Rua General Justiniano Padrel",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 526.7436504162544
       }
     },
     {
@@ -2718,7 +2877,8 @@
         "morada": "Parque do Vale do Silêncio",
         "designacao": "Parque Infantil do Vale do Silêncio",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 202.92910984066143
       }
     },
     {
@@ -2735,7 +2895,8 @@
         "morada": "Rua Rúben Cunha",
         "designacao": "Parque Infantil da Rua Rúben Cunha",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 194.33031427578535
       }
     },
     {
@@ -2752,7 +2913,8 @@
         "morada": "Jardim Maria da Luz Ponces de Carvalho",
         "designacao": "Parque Infantil do Jardim Maria da Luz Ponces de Carvalho",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 1086.5414501475163
       }
     },
     {
@@ -2769,7 +2931,8 @@
         "morada": "Alameda da Música(antigo Arrua. Inte. da Malha 15 - Alto do Lumiar)",
         "designacao": "Parque Infantil  da Alameda da Música 3",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 951.8820850474663
       }
     },
     {
@@ -2786,7 +2949,8 @@
         "morada": "Alameda da Encarnação",
         "designacao": "Parque Infantil do Jardim de Sto Eugénio",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 52.30369618201212
       }
     },
     {
@@ -2803,7 +2967,8 @@
         "morada": "Avenida da Índia",
         "designacao": "Parque Infantil do Jardim Vasco da Gama",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 95.48784546620017
       }
     },
     {
@@ -2820,7 +2985,8 @@
         "morada": "Rua da República Peruana",
         "designacao": "Parque Infantil da Rua da República Peruana",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 103.77104826339544
       }
     },
     {
@@ -2837,7 +3003,8 @@
         "morada": "Avenida Dr. Mário Moutinho(antiga Rua CD à Avenida das Descobertas)",
         "designacao": "Parque Infantil das Torres do Restelo",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 670.6973262847656
       }
     },
     {
@@ -2854,7 +3021,8 @@
         "morada": "Rua Engº Quartin Graça",
         "designacao": "Parque Infantil da Rua Engº Quartin Graça",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 706.5371265685272
       }
     },
     {
@@ -2871,7 +3039,8 @@
         "morada": "Rua Padre Francisco Álvares",
         "designacao": "Parque Infantil do Jardim Alice Cruz",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 362.7798415453687
       }
     },
     {
@@ -2888,7 +3057,8 @@
         "morada": "Praça de Dom Luís I",
         "designacao": "Parque Infantil do Jardim Sá da Bandeira",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 10.287143143479696
       }
     },
     {
@@ -2905,7 +3075,8 @@
         "morada": "Rua Sidónio Serpa(antigo Impasse B1.1 do Bairro da Horta Nova)",
         "designacao": "Parque Infantil do Bairro da Horta Nova",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 684.2389306895301
       }
     },
     {
@@ -2922,7 +3093,8 @@
         "morada": "Rua Engenheiro Manuel Rocha",
         "designacao": "Parque Infantil do Bairro da Boa Esperança",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 360.33798512173576
       }
     },
     {
@@ -2939,7 +3111,8 @@
         "morada": "Rua Capitão Tenente Oliveira e Carmo",
         "designacao": "Parque Infantil do Parque Recreativo dos Olivais Norte",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 474.2086389437697
       }
     },
     {
@@ -2956,7 +3129,8 @@
         "morada": "Azinhaga do Vale Fundão",
         "designacao": "Parque Infantil da Quinta das Flores",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 535.840136375197
       }
     },
     {
@@ -2973,7 +3147,8 @@
         "morada": "Rua Adriana de Vecchi(antiga Rua 7.11, Rua 7.12 e Rua A da Malha 7)",
         "designacao": "Parque Infantil da Rua Adriana de Vecchi 1",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 720.7924240296296
       }
     },
     {
@@ -2990,7 +3165,8 @@
         "morada": "Caminho da Rainha",
         "designacao": "Parque Infantil  do Parque Tejo",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 503.7587861968473
       }
     },
     {
@@ -3007,7 +3183,8 @@
         "morada": "Passeio de Neptuno",
         "designacao": "Parque Infantil do Passeio de Neptuno",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 759.3884210465095
       }
     },
     {
@@ -3024,7 +3201,8 @@
         "morada": "Rua Luís Cristino da Silva(antiga Via Comercial da Zona N2 de Chelas)",
         "designacao": "Parque Infantil do Vale de Chelas (Zona Sul)",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 305.60644930320854
       }
     },
     {
@@ -3041,7 +3219,8 @@
         "morada": "Avenida Vergílio Ferreira(antiga Rua M3 do Bairro do Armador Chelas)",
         "designacao": "Parque Infantil do Bairro do Armador",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 534.9118641131794
       }
     },
     {
@@ -3058,7 +3237,8 @@
         "morada": "Rua Jorge de Sena",
         "designacao": "Parque Infantil da Quinta de Santa Clara",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 396.0163655384965
       }
     },
     {
@@ -3075,7 +3255,8 @@
         "morada": "Jardim Guerra Junqueiro(Jardim da Estrela)",
         "designacao": "Parque Infantil do Jardim Guerra Junqueiro",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 223.6967364227218
       }
     },
     {
@@ -3092,7 +3273,8 @@
         "morada": "Avenida Cidade de Luanda",
         "designacao": "Parque Infantil da Avenida Cidade de Luanda",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 456.8741389025019
       }
     },
     {
@@ -3109,7 +3291,8 @@
         "morada": "Avenida do Colégio Militar",
         "designacao": "Parque Infantil da Quinta da Granja",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 161.16245237020712
       }
     },
     {
@@ -3126,7 +3309,8 @@
         "morada": "Estrada do Barcal",
         "designacao": "Parque Infantil Monte das Perdizes",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 839.2564528753545
       }
     },
     {
@@ -3143,7 +3327,8 @@
         "morada": "Rua Carlos Gentil(antiga Rua J 13 da Zona J de Chelas)",
         "designacao": "Parque Infantil Bairro do Condado",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 130.38251533310913
       }
     },
     {
@@ -3160,7 +3345,8 @@
         "morada": "Rua Prof. Manuel Valadares",
         "designacao": "Parque Infantil Rua Prof. Manuel Valadares",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 44.92141505977022
       }
     },
     {
@@ -3177,7 +3363,8 @@
         "morada": "Rua de Campolide, (frente ao 24B)",
         "designacao": "Parque Infantil Rua de Campolide",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 61.13153186472451
       }
     },
     {
@@ -3194,7 +3381,8 @@
         "morada": "Largo José Saramago",
         "designacao": "Espaço Lúdico II do Campo das Cebolas",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 258.711341756915
       }
     },
     {
@@ -3211,7 +3399,8 @@
         "morada": "Rua de José do Patrocínio(antiga Azinhaga dos Cadetes)",
         "designacao": "Parque Infantil da Rua de José do Patrocínio",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 411.1112774661519
       }
     },
     {
@@ -3228,7 +3417,8 @@
         "morada": "Rua Alberto José Pessoa(antigo Imp. F e Troço da Rua F da Zona L de Chelas)",
         "designacao": "Parque Infantil da Rua Alberto José Pessoa",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 532.8823589386817
       }
     },
     {
@@ -3245,7 +3435,8 @@
         "morada": "Rua Luís Sá(antigo Arrua interior da Malha 6 do Alto do Lumiar)",
         "designacao": "Parque Infantil Rua Luís Sá",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 1216.9458817929826
       }
     },
     {
@@ -3262,7 +3453,8 @@
         "morada": "Rua Almada Negreiros",
         "designacao": "Parque Infantil da Rua Almada Negreiros",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 763.5752332360357
       }
     },
     {
@@ -3279,7 +3471,8 @@
         "morada": "Largo da Memória",
         "designacao": "Parque Infantil da Memória",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 489.9521196204042
       }
     },
     {
@@ -3296,7 +3489,8 @@
         "morada": "Avenida dos Condes de Carnide(antiga Avenida da Pontinha)",
         "designacao": "Parque Infantil Bairro Bom Nome",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 480.34190808396
       }
     },
     {
@@ -3313,7 +3507,8 @@
         "morada": "Rua Marques da Silva",
         "designacao": "Parque Infantil Jardim do Caracol da Penha",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 143.02515870188265
       }
     },
     {
@@ -3330,7 +3525,8 @@
         "morada": "Avenida Columbano Bordalo Pinheiro",
         "designacao": "Espaço Lúdico do Parque Gonçalo Ribeiro Telles",
         "gestao": "SRU",
-        "servico_cml": "SRU"
+        "servico_cml": "SRU",
+        "distance_from_quiosque": 26.174441947474975
       }
     },
     {
@@ -3347,7 +3543,8 @@
         "morada": "Rua do Colégio de São José",
         "designacao": "Parque Infantil da Qtª. de Stº. António",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 955.5044764480017
       }
     },
     {
@@ -3364,7 +3561,8 @@
         "morada": "Estrada do Desvio",
         "designacao": "Espaço Lúdico do Vale da Ameixoeira Poente",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 1110.5276421178328
       }
     },
     {
@@ -3381,7 +3579,8 @@
         "morada": "Largo José Saramago",
         "designacao": "Espaço Lúdico III do Campo das Cebolas",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 278.5123686479745
       }
     },
     {
@@ -3398,7 +3597,8 @@
         "morada": "Largo José Saramago",
         "designacao": "Espaço Lúdico I do Campo das Cebolas ",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 274.25238356344295
       }
     },
     {
@@ -3415,7 +3615,8 @@
         "morada": "Rua da Cintura do Porto de Lisboa",
         "designacao": "Parque Infantil Oriente",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 392.3304919134338
       }
     },
     {
@@ -3432,7 +3633,8 @@
         "morada": "Rua Luiz Pacheco",
         "designacao": "Parque Infantil da Rua Luiz Pacheco",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 22.288076035278714
       }
     },
     {
@@ -3449,7 +3651,8 @@
         "morada": "Estrada do Desvio",
         "designacao": "Parque Infantil Vale da Ameixoeira Poente",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 941.5446770370321
       }
     },
     {
@@ -3466,7 +3669,8 @@
         "morada": "Avenida Infante Dom Henrique",
         "designacao": "Parque Infantil Braço de Prata",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 317.23963768078085
       }
     },
     {
@@ -3483,7 +3687,8 @@
         "morada": "Avenida Columbano Bordalo Pinheiro",
         "designacao": "Parque Infantil e Juvenil Parque Gonçalo Ribeiro Telles",
         "gestao": "SRU",
-        "servico_cml": "SRU"
+        "servico_cml": "SRU",
+        "distance_from_quiosque": 69.0966978830085
       }
     },
     {
@@ -3500,7 +3705,8 @@
         "morada": "Rua Jorge Barradas",
         "designacao": "Parque Infantil Jardim Carlos Consiglieri",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 116.17688432340776
       }
     },
     {
@@ -3517,7 +3723,8 @@
         "morada": "Rua da Quinta das Camareiras",
         "designacao": "Parque Infantil e Lúdico da Quinta das Camareiras",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 649.6497155764584
       }
     },
     {
@@ -3534,7 +3741,8 @@
         "morada": "Rua Bernardo Marques(antigo Impasse à Rua 8 do Alto do Lumiar)",
         "designacao": "Parque Infantil da Rua Bernardo Marques",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 1296.1090285585576
       }
     },
     {
@@ -3551,7 +3759,8 @@
         "morada": "Rua da Ilha dos Amores",
         "designacao": "Parque Infantil da Escola EB Vasco da Gama",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 162.56025975550642
       }
     },
     {
@@ -3568,7 +3777,8 @@
         "morada": "Rua Cidade da Beira(antigas Ruas B1 e B6 de Olivais Sul)",
         "designacao": "Parque Infantil na Rua Cidade da Beira",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 494.42479933740464
       }
     },
     {
@@ -3585,7 +3795,8 @@
         "morada": "Rua Vasco da Gama Fernandes(antiga Rua C do Alto do Lumiar)",
         "designacao": "Parque Infantil da Escola Básica 2+3 Pintor Almeida Negreiros",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 1458.421977068124
       }
     },
     {
@@ -3602,7 +3813,8 @@
         "morada": "Rua Fernando Namora(antiga Rua A da Quinta de St. António a Telheiras)",
         "designacao": "Parque Infantil da Escola Básica 2+3 São Vicente",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 245.3175614987575
       }
     },
     {
@@ -3619,7 +3831,8 @@
         "morada": "Estrada da Pontinha",
         "designacao": "Espaço Lúdico do Parque Verde de Carnide ",
         "gestao": "CML",
-        "servico_cml": "DPCEV"
+        "servico_cml": "DPCEV",
+        "distance_from_quiosque": 177.7210336462432
       }
     },
     {
@@ -3636,7 +3849,8 @@
         "morada": "Praça Paiva Couceiro",
         "designacao": "Parque Infantil da Praça Paiva Couceiro",
         "gestao": "JF",
-        "servico_cml": "Não Aplicável"
+        "servico_cml": "Não Aplicável",
+        "distance_from_quiosque": 69.15326902660891
       }
     },
     {
@@ -3652,7 +3866,8 @@
         "morada": "Alameda Santo António dos Capuchos",
         "designacao": "Jardim da Paz",
         "gestao": "N/A",
-        "servico_cml": "N/A"
+        "servico_cml": "N/A",
+        "distance_from_quiosque": 163.9296762156112
       }
     },
     {
@@ -3668,7 +3883,8 @@
         "morada": "Praça José Fontana",
         "designacao": "Parque Infantil da Praça José Fontana",
         "gestao": "N/A",
-        "servico_cml": "N/A"
+        "servico_cml": "N/A",
+        "distance_from_quiosque": 142.51113494706496
       }
     },
     {
@@ -3684,7 +3900,8 @@
         "morada": "Praça da Parada do Alto de São João",
         "designacao": "Alto da Parada de São João",
         "gestao": "N/A",
-        "servico_cml": "N/A"
+        "servico_cml": "N/A",
+        "distance_from_quiosque": 463.89696266427876
       }
     }
   ]
