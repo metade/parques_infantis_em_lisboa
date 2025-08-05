@@ -4,6 +4,7 @@
 
 1. Playgrounds: https://dados.cm-lisboa.pt/dataset/parques-infantis
 2. Census data: https://mapas.ine.pt/download/index2021.phtml
+3. Quiosques: https://dados.cm-lisboa.pt/dataset/quiosques-e-bancas
 
 Converted into geojson using:
 ```

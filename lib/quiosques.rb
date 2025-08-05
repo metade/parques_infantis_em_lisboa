@@ -1,6 +1,12 @@
 class Quiosques
+  attr_reader :extra_quiosques
+
+  def initialize(extra_quiosques = [])
+    @extra_quiosques = extra_quiosques
+  end
+
   def closest_quiosque_distance(latitude, longitude)
-    quiosques.map { |lat, lng|
+    (extra_quiosques + quiosques).map { |lat, lng|
       Haversine.distance(lat, lng, latitude, longitude).to_meters
     }.min
   end

@@ -25,8 +25,16 @@ file "data/src/extra_playgrounds.csv" do
   File.write("data/src/extra_playgrounds.csv", URI.open(url).read)
 end
 
-file "docs/data/playgrounds.geojson": "data/src/extra_playgrounds.csv" do
-  quiosques = Quiosques.new
+file "data/src/extra_quiosques.csv" do
+  url = ENV.fetch("EXTRA_QUIOSQUES_URL", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRvEr455sf7o24TvGXp3wvOuYEHUvePC6Bi6yT5yTXARtazHvZlynhxnAELa3s0CbWAYVO2SLzhy_Fy/pub?gid=2084733430&single=true&output=csv")
+  File.write("data/src/extra_quiosques.csv", URI.open(url).read)
+end
+
+file "docs/data/playgrounds.geojson": ["data/src/extra_playgrounds.csv", "data/src/extra_quiosques.csv"] do
+  extra_quiosques = CSV.parse(open("data/src/extra_quiosques.csv").read, headers: true)
+    .map { |row| [row["Latitude"].to_f, row["Longitude"].to_f] }
+
+  quiosques = Quiosques.new(extra_quiosques)
 
   data = JSON.parse(File.read("data/src/parques_infantis.geojson"))
   data["features"].map! do |feature|
@@ -57,6 +65,7 @@ file "docs/data/playgrounds.geojson": "data/src/extra_playgrounds.csv" do
 
   data["features"].each do |feature|
     lng, lat = feature["geometry"]["coordinates"]
+
     feature["properties"]["distance_from_quiosque"] = quiosques.closest_quiosque_distance(lat, lng)
   end
 
